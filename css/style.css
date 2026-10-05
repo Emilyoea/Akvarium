@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* baggrund */
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( #6cf4e7, #4959c7);
+    overfow: hidden;
+}
+
+/* Bobler */
+/** Outline på boblerne **/
+.wrapper div{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation: 4s linear infinite;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+/* Dot på boblerne **/
+div .dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.wrapper div:nth-child(1){ /* Laver og ligger dot ind i boble 1 **/
+    top: 20%;
+    left: 20%;
+    animation: animate 8s linear infinite;
+}
+
+.wrapper div:nth-child(2){ /* Laver og ligger dot ind i boble 2 **/
+    top: 60%;
+    left: 80%;
+    animation: animate 10s linear infinite;
+}
+
+
+.wrapper div:nth-child(3){ /* Laver og ligger dot ind i boble 3 **/
+    top: 40%;
+    left: 40%;
+    animation: animate 3s linear infinite;
+}
+
+.wrapper div:nth-child(4){ /* Laver og ligger dot ind i boble 4 **/
+    top: 66%;
+    left: 30%;
+    animation: animate 7s linear infinite;
+}
+
+.wrapper div:nth-child(5){ /* Laver og ligger dot ind i boble 5 **/
+    top: 90%;
+    left: 10%;
+    animation: animate 9s linear infinite;
+}
+
+.wrapper div:nth-child(6){ /* Laver og ligger dot ind i boble 6 **/
+    top: 30%;
+    left: 60%;
+    animation: animate 5s linear infinite;
+}
+
+
+.wrapper div:nth-child(7){ /* Laver og ligger dot ind i boble 7 **/
+    top: 70%;
+    left: 20%;
+    animation: animate 8s linear infinite;
+}
+
+
+.wrapper div:nth-child(8){ /* Laver og ligger dot ind i boble 8 **/
+    top: 75%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}
+
+
+@keyframes animate{
+    0%{ /* Starten af animationen*/
+        transform: 
+        scale(0) /* boblen starter helt lille*/
+        translateY(0) /*starter på sin normale placering*/
+        rotate(70deg) /*starter drejet 70 grader*/;
+    }
+    100%{ /* Slutningen af animationen*/
+        transform: 
+        scale(1.3) /* boblen bliver 1.3 gange større*/ 
+        translateY(-100px) /* flytter boblen 100px opad */
+        rotate(360deg); /* boblen roterer 360 grader */
+    }
+}
+
