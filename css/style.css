@@ -9,7 +9,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient( #6cf4e7, #4959c7);
-    overfow: hidden;
+    overflow: hidden;
 }
 
 /* Bobler */
