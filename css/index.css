@@ -19,8 +19,8 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient( var(--baggrund-forside1) );
-    overflow: hidden;
+    background-color: var(--baggrund-forside1);
+    
 }
 
 /* Bobler */
