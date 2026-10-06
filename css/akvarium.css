@@ -1,0 +1,14 @@
+:root{
+    --knap-startside: #ff97c2;
+    --knap-startside-tekst: #ff003c;
+    --baggrund1: #6cf4e7;
+    --baggrund2: #4959c7;
+}
+
+/* baggrund */
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( var(--baggrund1), var(--baggrund2) );
+    overflow: hidden;
+}
