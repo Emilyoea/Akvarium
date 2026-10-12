@@ -19,8 +19,9 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: var(--baggrund-forside1);
-    
+    background-image: url("../images/fisk3.svg");
+    background-size: cover;
+    background-position: center;
 }
 
 /* Bobler */
