@@ -3,6 +3,7 @@
     --knap-startside-tekst: #ff003c;
     --baggrund1: #6cf4e7;
     --baggrund2: #4959c7;
+    --underTekst: #e94906;
 }
 
 /* baggrund */
@@ -18,9 +19,11 @@ body{
     position: absolute;
     bottom: -10px;
     left: 0;
-    width: 1690px;
+    width: 100vw;
     object-fit: cover;
     z-index: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -118,5 +121,17 @@ div .dot{
     }
 }
 
-
+h2{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--underTekst);
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    z-index: 2;
+}
 
