@@ -148,10 +148,18 @@ h2{
 
 .skib{
     position: absolute;
-    right: -45px;
+    right: -55px;
     bottom: 36%;
     width: 700px;
     height: auto;
     z-index: 10;
 }
 
+.blæksprutte{
+    position: absolute;
+    bottom: 370px;
+    right: 2%;
+    width: 200px;
+    height: auto;
+    z-index: 15;
+}
