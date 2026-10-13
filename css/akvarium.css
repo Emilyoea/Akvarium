@@ -135,3 +135,19 @@ h2{
     z-index: 2;
 }
 
+.hav{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.skib{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    height: auto;
+    z-index: 10;
+}
+
