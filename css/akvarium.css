@@ -20,9 +20,9 @@ body{
 
 .sand {
     position: absolute;
-    bottom: -10px;
+    bottom: -25px;
     left: 0;
-    width: 100vw;
+    width: 200vw;
     object-fit: cover;
     z-index: 0;
     max-width: 100%;
