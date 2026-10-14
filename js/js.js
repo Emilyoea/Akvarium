@@ -43,3 +43,11 @@ if (fisk5) {
     });
 }
 
+const vandlyd = new Audio("lyde/vandlyd.mp3");
+vandlyd.loop = true; // Sæt lyd til at loope
+vandlyd.volume = 0.5; // Sæt lydstyrken til 50%
+document.addEventListener("click", function() {
+    vandlyd.play();
+}, { once: true });
+
+
