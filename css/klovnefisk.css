@@ -5,6 +5,7 @@
     --baggrund2: #4959c7;
     --underTekst: #e94906;
     --bagrundslør: #C7E7E9;
+    --box-farve: #F5F5F0;
 }
 
 /* baggrund */
@@ -70,4 +71,40 @@ h2{
     height: auto;
     z-index: 4;
     transform: rotate(-15deg) scaleX(-1);
+}
+
+.taleboble{
+    position: relative;
+    background-color: var(--box-farve);
+    padding: 30px 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    max-width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    top: 62%;
+    left: 27%;
+    z-index: 5;
+}
+
+/* pil til taleboble */
+.taleboble::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 10px; /* placering fra venstre side */
+    border-style: solid;
+    border-color: var(--box-farve) transparent transparent;
+    display: block;
+    border-width: 60px 30px 0;
+    width: 0;
+    transform: rotate(40deg);
+    z-index: 6;
 }
