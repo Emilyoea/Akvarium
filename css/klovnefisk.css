@@ -4,6 +4,7 @@
     --baggrund1: #6cf4e7;
     --baggrund2: #4959c7;
     --underTekst: #e94906;
+    --bagrundslør: #C7E7E9;
 }
 
 /* baggrund */
@@ -25,4 +26,15 @@ body{
     max-width: 110%;
     height: auto;
     display: block;
+}
+
+.box-1 {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 110%;
+    height: 120%;
+    z-index: 3;
+    background-color: var(--bagrundslør);
+    opacity: 0.7;
 }
