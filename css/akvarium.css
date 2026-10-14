@@ -178,7 +178,7 @@ h2{
     width: 11%;
     height: auto;
     animation: svøm 8s ease-in-out infinite;
-    z-index: 3;
+    z-index: 5;
 }
 
 /* Axolotl fisk 1*/

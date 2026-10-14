@@ -27,3 +27,19 @@ window.addEventListener('click', nulstilTimer);
 
 // Start timeren første gang siden indlæses
 nulstilTimer();
+
+
+const lukknap = document.querySelector(".lukknap");
+if (lukknap) {
+    lukknap.addEventListener("click", function(){
+        window.location.href = "akvarium.html";
+    });
+}
+
+const fisk5 = document.querySelector("#fisk5");
+if (fisk5) {
+    fisk5.addEventListener("click", function(){
+        window.location.href = "klovnefisk.html";
+    });
+}
+
