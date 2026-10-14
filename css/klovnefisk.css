@@ -1,0 +1,28 @@
+:root{
+    --knap-startside: #ff97c2;
+    --knap-startside-tekst: #ff003c;
+    --baggrund1: #6cf4e7;
+    --baggrund2: #4959c7;
+    --underTekst: #e94906;
+}
+
+/* baggrund */
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( var(--baggrund1), var(--baggrund2) );
+    overflow: hidden;
+}
+
+
+.sand {
+    position: absolute;
+    bottom: -50px;
+    left: -70px;
+    width: 200%;
+    object-fit: cover;
+    z-index: 0;
+    max-width: 110%;
+    height: auto;
+    display: block;
+}
