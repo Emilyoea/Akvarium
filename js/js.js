@@ -46,8 +46,21 @@ if (fisk5) {
 const vandlyd = new Audio("lyde/vandlyd.mp3");
 vandlyd.loop = true; // Sæt lyd til at loope
 vandlyd.volume = 0.5; // Sæt lydstyrken til 50%
-document.addEventListener("click", function() {
-    vandlyd.play();
-}, { once: true });
 
+const lydKnap = document.querySelector("#lydKnap");
+const lydIkon = document.querySelector("#lydIkon");
+
+if (lydKnap && lydIkon) {
+    lydKnap.addEventListener("click", function() {
+        if (vandlyd.paused) {
+            vandlyd.play();
+            lydIkon.src = "lyde/lydikon.svg"; // Skift ikon til tændt
+            lydIkon.alt = "sluk lyd";
+        } else {
+            vandlyd.pause();
+            lydIkon.src = "lyde/slukket.svg"; // Skift ikon til slukket
+            lydIkon.alt = "tænd lyd";
+        }
+    });
+}
 
