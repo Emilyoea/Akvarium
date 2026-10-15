@@ -29,6 +29,7 @@ window.addEventListener('click', nulstilTimer);
 nulstilTimer();
 
 
+// Når man trykker på luk knappen, bliver man sendt tilbage til forsiden
 const lukknap = document.querySelector(".lukknap");
 if (lukknap) {
     lukknap.addEventListener("click", function(){
@@ -36,6 +37,7 @@ if (lukknap) {
     });
 }
 
+// Når man trykker på fiskene, bliver man sendt videre til klovnefisk.html
 const fisk5 = document.querySelector("#fisk5");
 if (fisk5) {
     fisk5.addEventListener("click", function(){
