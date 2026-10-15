@@ -109,7 +109,7 @@ div .dot{
     animation: animate 10s linear infinite;
 }
 
-
+/* Emily */
 @keyframes animate{
     0%{ /* Starten af animationen*/
         transform: 
@@ -125,6 +125,7 @@ div .dot{
     }
 }
 
+/* Michala */
 h2{
     position: absolute;
     top: 15%;
@@ -146,6 +147,7 @@ h2{
     overflow: hidden;
 }
 
+/* Matilde */
 .skib{
     position: absolute;
     right: -70px;
@@ -172,7 +174,7 @@ h2{
     height: 100vh;
     overflow: hidden;
 }
-/* fælles styling for alle fisk */
+/* fælles styling for alle fisk - alle */ 
 .fisk{
     position: absolute;
     width: 11%;
@@ -256,6 +258,7 @@ h2{
 
 }
 
+/* michala og matilde */
 #lydKnap{
     position: fixed;
     top: 20px;
